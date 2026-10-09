@@ -1,0 +1,11 @@
+{
+  "name": "github-trending-analyzer",
+  "version": "1.0.0",
+  "description": "GitHub Trending 分析工具 - 抓取榜单、生成中文日报和 Dashboard",
+  "type": "module",
+  "scripts": {
+    "analyze:daily": "node scripts/run-analysis.mjs --period daily",
+    "analyze:weekly": "node scripts/run-analysis.mjs --period weekly",
+    "analyze:monthly": "node scripts/run-analysis.mjs --period monthly"
+  }
+}
